@@ -69,5 +69,34 @@ mvn exec:java -Dexec.mainClass="Main"
 
 ---
 
+## 📁 Estructura del proyecto
+
+```
+voley-management/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── es/
+│   │   │       └── cheste/
+│   │   │           ├── clases/            # Clases: Jugadora, Entrenador, Usuario, Estadistica, Opinion, Juega, Sigue
+│   │   │           ├── conexion/          # Conexión a PostgreSQL
+│   │   │           ├── enums/             # Enumeraciones: EstadoJugadora, PosicionJugadora, FrecuenciaInteraccion
+│   │   │           ├── excepcion/         # Excepciones personalizadas, ExcepcionDAO
+│   │   │           ├── interfaces/        # Interfaces DAO
+│   │   │           ├── impl/              # Implementación de interfaces DAO
+│   │   │           ├── servicios/         # Lógica de negocio o servicios
+│   │   │           └── Main.java          # Clase principal
+│   │   └── resources/
+│   │       ├── img/                       # Imágenes, en este caso modelo relacional
+│   │       ├── sql/                       # Scripts SQL: procedimiento almacenado, crear/eliminar tablas
+│   │       ├── application.properties     # Configuración de conexión a BD
+│   │       └── log4j2.xml                 # Configuración del logging
+├── .gitignore
+├── app.log                                # Fichero de logs generado
+├── pom.xml                                # Dependencias y configuración Maven
+└── README.md
+```
+
+---
 
 
