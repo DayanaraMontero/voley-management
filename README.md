@@ -41,6 +41,8 @@ Aplicación Java realizada para la gestión de equipos, jugadoras y partidos de 
 
 **Backend:** Java 17, JDBC
 
+**Patrón de diseño:** DAO (Data Access Object)
+
 **Base de Datos:** PostgreSQL
 
 **Librerías:** Lombok, Log4j
