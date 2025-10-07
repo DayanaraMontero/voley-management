@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [Descripción del proyecto](#descripción)
+* [Descripción del proyecto](#descripción-del-proyecto)
 * [Objetivos](#objetivos)
 * [Funcionalidades](#funcionalidades)
 * [Modelo relacional](#modelo-relacional)
@@ -13,7 +13,7 @@
 * [Estructura del proyecto](#-estructura-del-proyecto)
 * [Licencia](#licencia)
 
-## Descripción
+## Descripción del proyecto
 Aplicación Java realizada para la gestión de equipos, jugadoras y partidos de voleibol. Se conecta a **PostgreSQL** mediante **JDBC** utilizando el patrón **DAO** y permite registrar estadísticas, opiniones de fans y generar rankings de jugadoras más destacadas.
 
 ---
@@ -82,7 +82,7 @@ mvn exec:java -Dexec.mainClass="Main"
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 voley-management/
