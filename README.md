@@ -99,4 +99,7 @@ voley-management/
 
 ---
 
+## Licencia
+Proyecto desarrollado con fines educativos como parte del ciclo **DAM** en el **CIPFP Cheste.**
+
 
