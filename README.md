@@ -20,4 +20,4 @@ Aplicación Java realizada para la gestión de equipos, jugadoras y partidos de 
 - Gestión de seguimiento de jugadoras por usuarios.
 
 ## Modelo relacional
-![Modelo relacional Voleibol](../../../../../resources/img/modelo-relacional-voleibol.png "Modelo relacional Voleibol")
+![Modelo relacional Voleibol](src/main/resources/img/modelo-relacional-voleibol.png "Modelo relacional Voleibol")
