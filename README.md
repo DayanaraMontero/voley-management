@@ -1,4 +1,17 @@
-# 🏐 Gestión de Equipo de Voleibol 
+# 🏐 Gestión de Equipo de Voleibol
+
+## Índice
+
+* [Descripción del proyecto](#descripción)
+* [Objetivos](#objetivos)
+* [Funcionalidades](#funcionalidades)
+* [Modelo relacional](#modelo-relacional)
+* [Stack tecnológico](#stack-tecnológico)
+* [Instalación](#instalación)
+  *  [Requisitos](#requisitos)
+  * [Configuración](#configuración)
+* [Estructura del proyecto](#-estructura-del-proyecto)
+* [Licencia](#licencia)
 
 ## Descripción
 Aplicación Java realizada para la gestión de equipos, jugadoras y partidos de voleibol. Se conecta a **PostgreSQL** mediante **JDBC** utilizando el patrón **DAO** y permite registrar estadísticas, opiniones de fans y generar rankings de jugadoras más destacadas.
@@ -101,5 +114,7 @@ voley-management/
 
 ## Licencia
 Proyecto desarrollado con fines educativos como parte del ciclo **DAM** en el **CIPFP Cheste.**
+
+####  <u>*[Volver al índice](#índice)*</u>
 
 
