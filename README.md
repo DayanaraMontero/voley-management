@@ -115,10 +115,10 @@ voley-management/
 │   │       ├── sql/                       # Scripts SQL: procedimiento almacenado, crear/eliminar tablas
 │   │       ├── application.properties     # Configuración de conexión a BD
 │   │       └── log4j2.xml                 # Configuración del logging
-├── .gitignore
+├── .gitignore                             # Archivos ignorados por Git
 ├── app.log                                # Fichero de logs generado
 ├── pom.xml                                # Dependencias y configuración Maven
-└── README.md
+└── README.md                              # Este archivo
 ```
 
 ---
