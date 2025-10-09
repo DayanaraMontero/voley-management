@@ -39,17 +39,12 @@ Aplicación Java realizada para la gestión de equipos, jugadoras y partidos de 
 
 ## Stack tecnológico
 
-**Backend:** Java 17, JDBC
-
-**Patrón de diseño:** DAO (Data Access Object)
-
-**Base de Datos:** PostgreSQL
-
-**Librerías:** Lombok, Log4j
-
-**Gestión:** Maven
-
-**Control de versiones:** Git y GitHub
+- **Backend:** Java 17, JDBC
+- **Patrón de diseño:** DAO (Data Access Object)
+- **Base de Datos:** PostgreSQL
+- **Librerías:** Lombok, Log4j
+- **Gestión:** Maven
+- **Control de versiones:** Git y GitHub
 
 ---
 
@@ -59,28 +54,42 @@ Aplicación Java realizada para la gestión de equipos, jugadoras y partidos de 
 - Java 17+
 - PostgreSQL 12+
 - Maven 3.6+
+- IDE (recomendado: IntelliJ IDEA o Eclipse)
 
 ### Configuración
 
-1. Crear base de datos:
+1. **Clonar el repositorio:**
+```bash
+git clone https://github.com/DayanaraMontero/voley-management.git
+cd voley-management
+```
+
+2. **Crear base de datos:**
 ```sql
 CREATE DATABASE voleibol;
 ```
 
-2. Configurar **application.properties:**
+3. **Configurar application.properties:**
 ```properties
 db.url=jdbc:postgresql://localhost:5432/voleibol
 db.username=tu_usuario
 db.password=tu_contraseña
 ```
 
-3. Ejecutar:
+4. **Compilar y ejecutar**
+
+**Opción A - Con Maven:**
+
 ```bash
-git clone https://github.com/DayanaraMontero/voley-management.git
-cd voley-management
 mvn clean install
 mvn exec:java -Dexec.mainClass="Main"
 ```
+
+**Opción B - Desde IDE:**
+
+- Importar proyecto como proyecto **Maven**.
+- Esperar a que descargue dependencias
+- Ejecutar clase **Main.java**.
 
 ---
 
@@ -115,7 +124,7 @@ voley-management/
 ---
 
 ## Licencia
-Proyecto desarrollado con fines educativos como parte del ciclo **DAM** en el **CIPFP Cheste.**
+Proyecto desarrollado con fines educativos como parte del ciclo **Desarrollo de Aplicaciones Multiplataforna** en el **CIPFP Cheste, 2025.**
 
 ####  <u>*[Volver al índice](#índice)*</u>
 
