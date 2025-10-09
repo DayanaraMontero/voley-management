@@ -13,6 +13,8 @@
 * [Estructura del proyecto](#-estructura-del-proyecto)
 * [Licencia](#licencia)
 
+---
+
 ## Descripción del proyecto
 Aplicación Java realizada para la gestión de equipos, jugadoras y partidos de voleibol. Se conecta a **PostgreSQL** mediante **JDBC** utilizando el patrón **DAO** y permite registrar estadísticas, opiniones de fans y generar rankings de jugadoras más destacadas.
 
